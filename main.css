@@ -1,0 +1,81 @@
+/* Body */
+
+    body {
+        font-family: 'Lato', sans-serif;
+        color: #333;
+    }
+
+/* Image */
+    /* #plumbing img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 2%;
+        width: 500px;
+        height: 200px;
+    } 
+    */
+
+
+/* Wrapper */
+    #wrapper {
+        background-image: url("weights");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 150px;
+    }
+
+/* Header */
+    #header h1, #header p {
+        text-align: center;
+        color: black;
+        }
+
+/* Nav Bar */
+    #nav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    #nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        text-align: center;
+    }
+  
+    #nav ul li {
+        display:inline;
+    }
+  
+    #nav ul li a {
+        font-size: 14pt;
+        font-weight: bolder;
+        
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+  
+    #nav ul li a:hover {
+        background-color: #111;
+    }
+
+/* Copy */
+    
+    .copy {
+        
+        padding: 25px;
+    }
+
+    .copy h3 {
+        text-align: left;
+    }
+
+    .copy p {
+        text-align: justify;
+    }
